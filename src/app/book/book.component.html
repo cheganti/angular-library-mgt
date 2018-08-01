@@ -1,0 +1,7 @@
+<div class="col-sm-4 book-card" (click)="bookClicked($event)">
+  {{book.Code}}
+  <br> {{book.Name}}
+  <br> {{book.Author}}
+  <br>
+  <img [src]="book.thumbnail" />
+</div>
